@@ -71,9 +71,16 @@ a:hover {
   border-radius: 20px;
 }
 
+.image-sax {
+  border-radius: 20px;
+  height: 400px;
+}
+
 .image-fit {
-  width: 100px;
+  width: auto;
   height: auto;
+  border-radius: 20px;
+
 }
 
 textarea,
@@ -89,8 +96,4 @@ button {
   font-weight: bold;
   padding: 5px;
   margin-top: 10px;
-}
-input::placeholder,
-textarea::placeholder {
-  background-color: rgb(171, 173, 175);
 }
