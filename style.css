@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-color: rgb(171, 173, 175);
+  border-bottom: 3px solid goldenrod;
+  margin-bottom: 10px;
+}
+
+main {
+  text-align: center;
+  display: flex;
+}
+
+footer {
+  background-color: rgb(171, 173, 175);
+  border-top: 3px solid goldenrod;
+  text-align: center;
+  padding: 10px;
+}
+
+article {
+  background-color: goldenrod;
+  border: 1px solid rgb(171, 173, 175);
+  padding: 50px;
+  width: 70%;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+nav {
+  list-style-type: none;
+}
+
+.nav-bar,
+.nav-link {
+  display: inline;
+}
+
+#brand-title {
+  margin-right: 20px;
+}
+a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+#side-bar {
+  width: 30%;
+  border: 1px solid;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.image-fit {
+  width: 100px;
+  height: auto;
+}
+
+textarea,
+input {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 25px;
+}
+
+button {
+  border-radius: 10px;
+  width: 80%;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+}
+input::placeholder,
+textarea::placeholder {
+  background-color: rgb(171, 173, 175);
+}
